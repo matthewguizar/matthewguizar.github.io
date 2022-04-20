@@ -49,3 +49,20 @@ li a {
       margin-top: 5vw;
   }
 
+#github-link{
+    width:20px;
+    height:20px;
+    
+}
+#linkedIn{
+    width:40px;
+    height:22px;
+
+
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+
+}
