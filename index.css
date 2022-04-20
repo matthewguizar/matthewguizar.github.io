@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-self: flex-start;
+    margin-right: 66px;
 }
 
 /* html{
@@ -21,33 +22,21 @@ li a {
     text-decoration: none;
     position: fixed;
     bottom: 0;
-  }
+}
 
-  .container{
-      display: flex;
-      flex-direction: column;
-      font-size: xx-large;
-      font-family:'Courier New', Courier;
-      position: relative;
-      
-  }
-  .container > h1{
-      display: flex;
-      justify-content: center;
-  }
-
-  #section{
-      width: 100px;
-      background-color: aquamarine;
+#title-container > h1 {
+    font-size: xx-large;
+    font-family:'Courier New', Courier;
+    position: relative;
     
-  }
+    
+}
+#title-container > h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
 
-  #display{
-      background-color: rgb(255, 255, 255);
-      width: 50vw;
-      margin-left: 25vw;
-      margin-top: 5vw;
-  }
 
 #github-link{
     width:20px;
@@ -57,12 +46,19 @@ li a {
 #linkedIn{
     width:40px;
     height:22px;
-
-
+    
+    
 }
 
 #socials{
     display: flex;
     justify-content: center;
+    
+}
 
+
+#section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
