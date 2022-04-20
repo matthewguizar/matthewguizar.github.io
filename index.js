@@ -4,7 +4,7 @@ const about = document.querySelector('#about')
 const skills = document.querySelector('#skills')
 const projects = document.querySelector('#projects')
 const contact = document.querySelector('#contact')
-const section = document.querySelector('#section')
+const section = document.querySelector('.section')
 const sectionDisplay = document.querySelector('#display')
 
 
