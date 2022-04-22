@@ -37,15 +37,15 @@ const getProjects = (e) =>{
     <p id='desc'> This is a small web app that uses movie quotes to let user guess a movie quote
     generate random quotes with a title, and searching a movie title to get a quote. I used HTML, CSS,
     JavaScript, Axios, Express, and Node.js to build it. Here are some links
-    <a href="https://www.youtube.com/watch?v=warVX9BzM8k">demo</a>
-    <a href="https://github.com/matthewguizar/WheresThatFrom">code</a>
-    <a href="https://wheresthatfrom.herokuapp.com/">link</a>.</p>`
+    <a href="https://www.youtube.com/watch?v=warVX9BzM8k"  target=”_blank”>demo</a>
+    <a href="https://github.com/matthewguizar/WheresThatFrom"  target=”_blank”>code</a>
+    <a href="https://wheresthatfrom.herokuapp.com/"  target=”_blank”>link</a>.</p>`
     section.appendChild(sectionDisplay)
 }
 
 const contactPage = (e) =>{
     e.preventDefault()
-    section.innerHTML= `<h1>Can't get enough?</h1>`
+    section.innerHTML= `<h1>Just can't get enough?</h1>`
     sectionDisplay.innerHTML = `If you want to get into contact with me regarding work or just want to say what's up. Either way the best way to
     contact me is to send me an email <a href="mailto:msg.gmath@gmail.com">here</a>. Thanks for checking out my page.
     <img>`

@@ -4,7 +4,8 @@
     justify-content: space-around;
     align-self: flex-start;
     margin-right: 66px;
-    border: 5px solid black
+    border: 5px solid black;
+    
 }
 
 
@@ -119,6 +120,7 @@ h1{
   #home:hover{
     background-color: #afa04c; /* Green */
   color: white;
+  font-weight: lighter;
   }
 
   #about:hover{
@@ -143,6 +145,8 @@ h1{
 
   a{
       color: rgb(255, 218, 7);
+      font-weight: lighter;
+      
   }
 
   h3{
