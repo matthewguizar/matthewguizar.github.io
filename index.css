@@ -4,15 +4,17 @@
     justify-content: space-around;
     align-self: flex-start;
     margin-right: 66px;
+    border: 5px solid black
 }
 
-/* html{
+
+html{
     min-height: 100%;
-    background-image: url(http://wallpapers.net/web/wallpapers/geometric-lines-at-the-dark-hd-wallpaper/thumbnail/lg.jpg);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-} */
+}
 
 li a {
     display: block;
@@ -22,7 +24,7 @@ li a {
     text-decoration: none;
     position: fixed;
     bottom: 0;
-    background-color: aqua;
+    background-color: rgba(137, 140, 148, 0);
 }
 
 #title-container > h1 {
@@ -61,7 +63,7 @@ li a {
 
 
 .section{
-    background-color: aqua;
+    background-color: rgba(201, 206, 209, 0.349);
     width: 55vw;
     height: 67vh;
     margin-left: 23vw;
@@ -69,6 +71,8 @@ li a {
     display: flex;
     align-items:center;
     flex-direction: column;
+    outline-style: double;
+    outline-width: thick;
 }
 
 #home-contact-btn{
@@ -80,7 +84,7 @@ li a {
 #display{
     margin-left: 2vw;
     margin-right: 2vw;
-    margin-top: 2vh;
+    margin-top: 25px;
 }
   
   p{
@@ -88,5 +92,59 @@ li a {
     letter-spacing: 1px;  
     font-size: 29px;
     margin-bottom: 20px;
-    color: #486255;
+    color: #000000;
+  }
+h1{
+    font-size: xx-large;
+    margin-top: 20px;
+
+}
+
+#home-contact-btn{
+    float: left;
+    width: 250px;
+    position: relative;
+    left: 400px;
+    height: 35px
+    
+
+}
+
+#home-contact-btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #afa04c; /* Green */
+  color: white;
+  }
+  
+  #home:hover{
+    background-color: #afa04c; /* Green */
+  color: white;
+  }
+
+  #about:hover{
+    background-color: #afa04c; /* Green */
+  color: white;
+  }
+
+  #skills:hover{
+    background-color: #afa04c; /* Green */
+  color: white;
+  }
+
+  #projects:hover{
+    background-color: #afa04c; /* Green */
+  color: white;
+  }
+
+  #contact:hover{
+    background-color: #afa04c; /* Green */
+  color: white;
+  }
+
+  a{
+      color: rgb(255, 218, 7);
+  }
+
+  h3{
+      font-size: xx-large;
   }
