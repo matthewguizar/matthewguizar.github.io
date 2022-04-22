@@ -63,7 +63,7 @@ li a {
 .section{
     background-color: aqua;
     width: 55vw;
-    height: 45vh;
+    height: 67vh;
     margin-left: 23vw;
     margin-top: 10vh;
     display: flex;
@@ -82,3 +82,11 @@ li a {
     margin-right: 2vw;
     margin-top: 2vh;
 }
+  
+  p{
+    text-align: center;
+    letter-spacing: 1px;  
+    font-size: 29px;
+    margin-bottom: 20px;
+    color: #486255;
+  }
