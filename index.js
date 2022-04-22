@@ -47,7 +47,7 @@ const contactPage = (e) =>{
     e.preventDefault()
     section.innerHTML= `<h1>Can't get enough?</h1>`
     sectionDisplay.innerHTML = `If you want to get into contact with me regarding work or just want to say what's up. Either way the best way to
-    send me an <a href="mailto:msg.gmath@gmail.com">email</a>.
+    contact me is to send me an email <a href="mailto:msg.gmath@gmail.com">here</a>. Thanks for checking out my page.
     <img>`
     section.appendChild(sectionDisplay)
 
