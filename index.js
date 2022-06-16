@@ -24,9 +24,7 @@ const girlsWantSkills = (e) =>{
     e.preventDefault()
     section.innerHTML= `<h1> Skills And Experience</h1>`
     sectionDisplay.innerHTML = `<p> I create successful responsive websites that are easy to use. I've worked
-    with HTML, CSS, JS, building small web apps.
-    I also have full-stack developer experience with express, cors, node.js
-    Also have experience building apps in Java using frameworks like Spring and Hibernate</p>`
+    with HTML, CSS, JS, building small web apps. Also have experience building apps in Java using frameworks like Spring and Hibernate</p>`
     section.appendChild(sectionDisplay)
 }
 
@@ -44,8 +42,9 @@ const getProjects = (e) =>{
     
     <h3 id ='title'> On my list</h3>
     <p id='desc'> A web app that lets users see Top Rated movies and add their to their list of favorites
-    and was build using Java, Spring, Hibernate, Javascript, Bootstrap, HTML, Heroku, Postgres, and Maven.>
-    <a href="https://onmylist.herokuapp.com/" target="_blank"> link</a>. </p`
+    and was build using Java, Spring, Hibernate, Javascript, Bootstrap, HTML, Heroku, Postgres, and Maven.
+    <a href="https://onmylist.herokuapp.com/" target="_blank">link</a>. 
+    <a href="https://github.com/matthewguizar/watchlist" target="_blank">code</p`
     section.appendChild(sectionDisplay)
 }
 
