@@ -24,8 +24,9 @@ const girlsWantSkills = (e) =>{
     e.preventDefault()
     section.innerHTML= `<h1> Skills And Experience</h1>`
     sectionDisplay.innerHTML = `<p> I create successful responsive websites that are easy to use. I've worked
-    with HTML, CSS, JS, building small web apps
-    I also have full-stack developer experience with express, cors, node.js</p>`
+    with HTML, CSS, JS, building small web apps.
+    I also have full-stack developer experience with express, cors, node.js
+    Also have experience building apps in Java using frameworks like Spring and Hibernate</p>`
     section.appendChild(sectionDisplay)
 }
 
@@ -39,7 +40,12 @@ const getProjects = (e) =>{
     JavaScript, Axios, Express, and Node.js to build it. Here are some links
     <a href="https://www.youtube.com/watch?v=warVX9BzM8k"  target=”_blank”>demo</a>
     <a href="https://github.com/matthewguizar/WheresThatFrom"  target=”_blank”>code</a>
-    <a href="https://wheresthatfrom.herokuapp.com/"  target=”_blank”>link</a>.</p>`
+    <a href="https://wheresthatfrom.herokuapp.com/"  target=”_blank”>link</a>.</p>
+    
+    <h3 id ='title'> On my list</h3>
+    <p id='desc'> A web app that lets users see Top Rated movies and add their to their list of favorites
+    and was build using Java, Spring, Hibernate, Javascript, Bootstrap, HTML, Heroku, Postgres, and Maven.>
+    <a href="https://onmylist.herokuapp.com/" target="_blank"> link</a>. </p`
     section.appendChild(sectionDisplay)
 }
 
